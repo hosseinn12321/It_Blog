@@ -1,0 +1,24 @@
+.direction-right {
+    direction: rtl;
+}
+.img-box {
+    position: relative;
+}
+.back-img {
+    background-image: url(../img/Banner2.jpg);
+    object-fit: contain;
+    filter: opacity(0.1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+} 
+
+#head-banner {
+    display: none;
+}
+@media (min-width: 768px) { 
+    #head-banner {
+        display: block;
+    }
+}
