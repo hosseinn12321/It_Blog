@@ -79,7 +79,30 @@
         </header>
 
         <div class="container-lg pt-5 ">
+            <div class="d-flex bg-light justify-content-between">
+                <div>
+                    <form action="">
+                        <label for="sorting" class="my-1" >ترتیب نمایش</label>
+                        <select name="sorting" id="sorting">
+                            <option value="newest" selected="selected">جدیدترین ها</option>
+                            <option value="oldest">قدیمی ترین ها</option>
+                            <option value="popular">محبوب ترین ها</option>
+                        </select>
+                    </form>
+                </div>
 
+                <div>
+                    <form action="">
+                        <label for="category" class="my-1" >دسته بندی</label>
+                        <select name="category" id="category">
+                            <option value="pub" selected="selected">همه موارد</option>
+                            <option value="prg">برنامه نویسی</option>
+                            <option value="devo">دواپس</option>
+                            <option value="it">شبکه</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
         </div>
 
         <div class="container-fluid">
