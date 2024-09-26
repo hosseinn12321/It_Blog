@@ -16,6 +16,16 @@
     z-index: 1;
 } 
 
+#slideshow-back {
+    background-image: url(../img/Banner2.jpg);
+    object-fit: contain;
+    filter: opacity(0.2) blur(12px);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
 #head-banner {
     display: none;
 }
