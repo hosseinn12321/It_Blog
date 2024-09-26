@@ -82,7 +82,7 @@
             <div class="d-flex bg-light justify-content-between">
                 <div>
                     <form action="">
-                        <label for="sorting" class="my-1" >ترتیب نمایش</label>
+                        <label for="sorting" class="form-label">ترتیب نمایش</label>
                         <select name="sorting" id="sorting">
                             <option value="newest" selected="selected">جدیدترین ها</option>
                             <option value="oldest">قدیمی ترین ها</option>
@@ -93,7 +93,7 @@
 
                 <div>
                     <form action="">
-                        <label for="category" class="my-1" >دسته بندی</label>
+                        <label for="category" class="form-label">دسته بندی</label>
                         <select name="category" id="category">
                             <option value="pub" selected="selected">همه موارد</option>
                             <option value="prg">برنامه نویسی</option>
@@ -170,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg mx-1 my-1 border border-info border-2 rounded-end rounded-3"> 
+                <div class="col-lg mx-1 my-1 border border-info border-2 rounded-end rounded-3">
                     <div class="d-flex flex-column bg-light  align-items-center" style="width: 90%;margin: auto;">
                         <h1 class="display-6 align-self-start mt-2">bootstrap چیست</h1>
                         <img src="img/Banner3.jpg" class="img-thumbnail" alt="" style="width: 70%; height: 50%;">
@@ -182,14 +182,19 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
-            <div class="d-flex p-3 bg-secondary text-white flex-column flex-lg-row flex-nowrap">
-                <div class="p-2 bg-info flex-fill">Flex item 1</div>
-                <div class="p-2 bg-warning">Flex item 2</div>
-                <div class="p-2 bg-primary">Flex item 3</div>
+            <div class="row">
+                <div class="col-12">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled"><a href="#" class="page-link"> قبلی </a></li>
+                        <li class="page-item"><a href="#" class="page-link active"> 1 </a></li>
+                        <li class="page-item"><a href="#" class="page-link"> 2 </a></li>
+                        <li class="page-item"><a href="#" class="page-link"> 3 </a></li>
+                        <li class="page-item"><a href="#" class="page-link"> بعدی </a></li>
+                    </ul>
+                </div>
             </div>
+        </div>
 
         </div>
 
