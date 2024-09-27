@@ -21,7 +21,7 @@
 
 
         <header>
-            <nav class="navbar navbar-expand-lg bg-info navbar-light direction-right">
+            <nav class="navbar navbar-expand-lg bg-info navbar-light direction-right fixed-top">
                 <div>
                     <a class="navbar-brand" href="#">Logo</a>
                 </div>
@@ -47,7 +47,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#"> ارتباط با ما </a>
+                            <a class="nav-link" href="#contact-us"> ارتباط با ما </a>
                         </li>
                     </ul>
 
@@ -291,14 +291,68 @@
                 </button>
             </div>
             <!-- Left and right controls/icons -->
-            
+
         </div>
-
-    </div>
     </div>
 
+    <!-- Contact Us -->
+    <div class="container-fluid bg-primary mt-1" id="contact-us">
+        <h2 class="text-center text-white">ارتباط با ما</h2>
+        <form action="">
+            <fieldset class="border border-2 border-warning">
+                <div class="row row-cols-md-2 pt-5">
+                    <div class="col-md">
+                        <div class="d-flex flex-column flex-lg-row justify-content-center">
+                            <label for="flname" class="m-2">نام</label>
+                            <input type="text" class="form-control" id="flname" placeholder="نام خود را وارد کنید"
+                                style="width: 50%;" name="flname">
+                        </div>
 
+                    </div>
+
+                    <div class="col-md">
+                        <div class="d-flex flex-column flex-lg-row justify-content-center">
+                            <label for="email" class="m-2">ایمیل</label>
+                            <input type="email" class="form-control" id="email" placeholder="example@hostname.com"
+                                style="width: 50%;" name="email">
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-md-1 m-0">
+                    <div class="col-md-6">
+                        <div class="d-flex flex-column flex-lg-row m-lg-5 p-lg-5">
+                            <fieldset class="m-lg-5">
+                                <legend> موضوع پیام</legend>
+                                <input type="radio" id="offer" name="subject" value=" انتقاد و پیشنهاد">
+                                <label for="offer">انتقاد و پیشنهاد</label>
+                                <input type="radio" id="work" name="subject" value=" همکاری">
+                                <label for="work">همکاری</label>
+                                <input type="radio" id="other" name="subject" value=" سایر موارد">
+                                <label for="other">سایر موارد</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="col-md-6 p-5 ">
+                        <div class="d-flex flex-column flex-lg-row justify-content-center">
+                            <label for="message" class="m-0">پیام شما:</label>
+                            <textarea name="message" rows="10" cols="50" id="message">
+                        </textarea>
+                        </div>
+                    </div>
+                </div>
+
+
+                </textarea>
+            </fieldset>
+        </form>
     </div>
+    <div class="container-fluid">
+        <footer class="text-center pt-2 bg-light ">
+            <p>Created by bootstrap5</p>
+        </footer>
+    </div>
+  
+
 </body>
 
 </html>
